@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header{
+    font-size: 8rem;
+    line-height: 6.5rem;
+    text-align: end;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.welcome{
+    text-align: end;
+    margin-left: 20rem;
+}
+
+.socials{
+    display: flex;
+    gap: 1.5rem
+}
+
+.socials a{
+    width: 2rem;
+}
+
+.socials span{
+    border-top: 2px solid rgb(238, 238, 238);
+    width: 65%;
+}
