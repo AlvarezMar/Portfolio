@@ -4,26 +4,41 @@
 }
 
 .header{
+    text-align: end;
+}
+
+.header span{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.title{
     font-size: 8rem;
     line-height: 6.5rem;
-    text-align: end;
     padding-bottom: 1rem;
     margin-bottom: 0;
     font-weight: 900;
 }
 
 .welcome{
-    text-align: end;
-    margin-left: 20rem;
+    margin-left: 15rem;
 }
 
 .socials{
     display: flex;
-    gap: 1.5rem
+    gap: 1.5rem;
 }
 
 .socials a{
     width: 2rem;
+    transition: ease .3s;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: ease .3s;
+    }
+    
+    
 }
 
 .socials span{

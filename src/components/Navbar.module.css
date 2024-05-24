@@ -1,14 +1,44 @@
-.container{
+.header{
     display: flex;
-    gap: 5rem;
     justify-content: center;
-    cursor: pointer;
+    align-items: center;
 
+    position: relative;
+    margin: .7rem 0;
+}
+
+.header img{
+    max-width: 40px;
+    height: fit-content;
+    margin-right: auto;
+}
+
+.header h2{
+    margin: .8rem 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    position: absolute;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-weight: bold;
+
+    cursor: pointer;
+    
     border-top: 2px solid rgb(238, 238, 238);
     border-bottom: 2px solid rgb(238, 238, 238);
     padding: 1rem;
+}
 
-    width: 100%;
-    font-weight: bold;
-
+.links a{
+    transition: ease .2s;
+    &:hover{
+        color: orange;
+        transition: ease .2s;
+    }
 }
