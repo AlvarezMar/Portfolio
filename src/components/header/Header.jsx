@@ -1,9 +1,9 @@
 import styles from './Header.module.css'
 
-import github from '../assets/socials/github.svg'
-import instagram from '../assets/socials/instagram.svg'
-import linkedin from '../assets/socials/linkedin.svg'
-import mail from '../assets/socials/mail.svg'
+import github from '../../assets/socials/github.svg'
+import instagram from '../../assets/socials/instagram.svg'
+import linkedin from '../../assets/socials/linkedin.svg'
+import mail from '../../assets/socials/mail.svg'
 
 function Header(){
 
@@ -28,7 +28,6 @@ function Header(){
             <a href='mailto:alvarez.majuan@hotmail.com' target='_blank'> <img src={mail} alt="E-mail Logo" /></a>
             <span></span>
         </div>
-
     </div>
 }
 

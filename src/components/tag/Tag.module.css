@@ -1,0 +1,12 @@
+.tag{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.tag span{
+    color: rgb(138, 92, 245);
+    background-color: rgb(232, 222, 253);
+    border-radius: 50rem;
+    padding: .3rem .5rem;
+    font-size: .8rem;
+    margin: 0 .1rem;
+}
