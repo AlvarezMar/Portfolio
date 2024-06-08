@@ -11,8 +11,45 @@
     border-radius: .5rem;
 }
 
+.project p{
+    margin-bottom: 1rem;
+}
+
 .info{
     text-align: left;
-    
-
 }
+
+.buttons{
+    display: flex;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.buttons a{
+    padding: .5rem .8rem;
+    border-radius: .4rem;
+    border: none;
+    gap: .3rem;
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 233, 233);
+
+    font-size: 15px;
+    cursor: pointer;
+    transition: ease .3s;
+
+    &:hover{
+        background-color: rgb(232, 222, 253);
+        transition: ease .3s;
+        transform: scale(1.05);
+    }
+}
+
+.buttons img{
+    max-width: 20px;
+}
+
+

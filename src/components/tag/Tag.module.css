@@ -1,6 +1,5 @@
 .tag{
     display: inline-block;
-    margin-bottom: 1rem;
 }
 .tag span{
     color: rgb(138, 92, 245);
@@ -9,4 +8,6 @@
     padding: .3rem .5rem;
     font-size: .8rem;
     margin: 0 .1rem;
+    font-family: monospace;
+    font-weight: bold;
 }

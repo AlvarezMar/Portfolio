@@ -12,8 +12,14 @@ function Project({title, description, technologies, imgURL}){
             ))}
 
             <div className={styles.buttons}>
-                <input type="submit" value={'Code'} />
-                <input type="submit" value={'Preview'} />
+                <a href="">
+                    Code
+                    <img src="/src/assets/socials/github.svg" alt="" />
+                </a>
+                <a href="">
+                    Preview
+                    <img src="/src/assets/elements/link.svg" alt="" />
+                </a>
             </div>
         </div>
 

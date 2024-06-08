@@ -1,5 +1,6 @@
 import Project from '../../components/project/Project'
 import styles from './Projects.module.css'
+import img from '/images.png'
 
 const projects = [
     {
@@ -8,7 +9,6 @@ const projects = [
         technologies: [
             {
                 name: 'React', 
-                logo: 'Test'
             },
             {
                 name: 'Redux'
@@ -17,21 +17,20 @@ const projects = [
                 name: 'JavaScript'
             },
             {
-                name: 'TypeScript'
+                name: 'TypeScript',
             },
             {
                 name: 'Express'
             }
         ],
-        imgURL: 'Test'
+        imgURL: img
     },
     {
-        title: 'MovLoom',
+        title: 'Movloom',
         description: 'This movie website allows user to explore movie information, add new movies through a form, and store information in a database.',
         technologies: [
             {
                 name: 'JavaScript', 
-                logo: 'Test'
             },
             {
                 name: 'Express'
@@ -43,7 +42,7 @@ const projects = [
                 name: 'Mongoose'
             }
         ],
-        imgURL: 'Test'
+        imgURL: img
     }
     
 ]
