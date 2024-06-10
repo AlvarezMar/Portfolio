@@ -5,6 +5,7 @@
 
 .header{
     text-align: end;
+
 }
 
 .header span{
@@ -44,4 +45,5 @@
 .socials span{
     border-top: 2px solid rgb(238, 238, 238);
     width: 65%;
+    margin-top: .5rem;
 }
