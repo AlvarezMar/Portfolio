@@ -7,8 +7,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border: 2px solid rgb(238, 238, 238);
-    padding: 1rem;
+    padding: 1.5rem 2.2rem;
     border-radius: .5rem;
+    margin-bottom: 1.5rem;
 }
 
 .project p{
@@ -50,6 +51,12 @@
 
 .buttons img{
     max-width: 20px;
+}
+
+.project_img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 

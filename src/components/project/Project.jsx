@@ -23,7 +23,7 @@ function Project({title, description, technologies, imgURL}){
             </div>
         </div>
 
-        <div>
+        <div className={styles.project_img}>
             <img src={imgURL} alt="" />
 
         </div>
