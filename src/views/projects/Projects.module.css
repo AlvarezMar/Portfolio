@@ -1,5 +1,11 @@
 .projects{
     margin-bottom: 3rem;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr; */
+}
+
+.projects_heading h2{
+    font-weight: normal;
 }
 
 .projects img{

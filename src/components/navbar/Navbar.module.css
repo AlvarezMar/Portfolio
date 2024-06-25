@@ -1,16 +1,25 @@
+.navbar{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     position: relative;
-    margin: 1.2rem 0 .7rem 0;
+    padding: 1.2rem 0 .7rem 0;
+    background-color: rgb(248, 247, 243);
+    margin: 0 auto;
 }
 
 .header img{
     max-width: 40px;
     height: fit-content;
-    margin-right: auto;
+    margin-right: 70rem;
 }
 
 .header h2{
@@ -26,12 +35,17 @@
     justify-content: center;
     gap: 5rem;
     font-weight: bold;
-
+    padding: 1rem;
+    
     cursor: pointer;
     
     border-top: 2px solid rgb(238, 238, 238);
-    border-bottom: 2px solid rgb(238, 238, 238);
-    padding: 1rem;
+
+    background-color: rgba(248, 247, 243, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+
 }
 
 .links a{

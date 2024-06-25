@@ -1,6 +1,11 @@
 .container{
+    max-width: 1200px;
+
+}
+.landing{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .header{
@@ -38,7 +43,6 @@
         transform: scale(1.1);
         transition: ease .3s;
     }
-    
     
 }
 

@@ -2,8 +2,8 @@ import styles from './About.module.css'
 
 function About(){
 
-    return <div className={`${styles.about} `}>
-        <div className={styles.container}>
+    return <div className={`${styles.container}`}>
+        <div className={styles.about}>
             <div>
                 <h2>About</h2>
             </div>

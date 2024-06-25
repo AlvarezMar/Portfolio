@@ -6,11 +6,9 @@ function Navbar(){
     return <div className={`${styles.navbar} ${styles.container}`}>
 
         <div className={`${styles.header}`}>
-        <img src={logo} alt="" />
-        <h2>Juan Carlos Alvarez</h2>
+            <img src={logo} alt="" />
+            <h2>Juan Carlos Alvarez</h2>
         </div>
-
-
 
         <div className={styles.links}>
             <a>Home</a>

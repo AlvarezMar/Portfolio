@@ -70,7 +70,9 @@ const projects = [
 ]
 function Projects(){
     return <div className={styles.projects}>
-        <h2>Last Projects</h2>
+        <div className={styles.projects_heading}>
+            <h2>Last Projects</h2>
+        </div>
         <div className={styles.prueba}>
             {projects.map((project) => (
                 <Project key={project.title} title={project.title} description={project.description} technologies={project.technologies} imgURL={project.imgURL}/>
