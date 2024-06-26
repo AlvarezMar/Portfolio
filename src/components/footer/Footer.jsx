@@ -20,13 +20,13 @@ function Footer(){
             </div>
 
             <div className={styles.socials}>
-                <a href='https://linkedin.com/in/alvarezmajuan' target='_blank'> <img src={linkedin} alt="LinkedIn Logo" /></a>
+                <a href='https://linkedin.com/in/alvarezmajuan' target='_blank'> <img src={linkedin} alt="LinkedIn Logo" loading='lazy'/></a>
 
-                <a href='https://github.com/AlvarezMar' target='_blank'> <img src={github} alt="GitHub Logo" /></a>
+                <a href='https://github.com/AlvarezMar' target='_blank'> <img src={github} alt="GitHub Logo" loading='lazy'/></a>
 
-                <a href='https://www.instagram.com/juan_alvarezmar/' target='_blank'> <img src={instagram} alt="Instagram Logo" /></a>
+                <a href='https://www.instagram.com/juan_alvarezmar/' target='_blank'> <img src={instagram} alt="Instagram Logo" loading='lazy'/></a>
 
-                <a href='mailto:alvarez.majuan@hotmail.com' target='_blank'> <img src={mail} alt="E-mail Logo" /></a>
+                <a href='mailto:alvarez.majuan@hotmail.com' target='_blank'> <img src={mail} alt="E-mail Logo" loading='lazy'/></a>
             </div>
         </div>
         <div className={styles.watermark}>

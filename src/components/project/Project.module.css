@@ -33,13 +33,10 @@
     gap: .3rem;
 
     display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
     background-color: rgb(233, 233, 233);
+    font-weight: normal;
 
     font-size: 15px;
-    cursor: pointer;
     transition: ease .3s;
 
     &:hover{

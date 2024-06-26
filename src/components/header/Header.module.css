@@ -1,16 +1,17 @@
-.container{
-    max-width: 1200px;
-
-}
 .landing{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
+.landing img{
+    -webkit-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
+    -moz-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
+    box-shadow: 34px 74px 51px -93px rgb(226, 154, 19);
+}
+
 .header{
     text-align: end;
-
 }
 
 .header span{

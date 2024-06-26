@@ -14,17 +14,17 @@ function Project({title, description, technologies, imgURL}){
             <div className={styles.buttons}>
                 <a href="">
                     Code
-                    <img src="/src/assets/socials/github.svg" alt="" />
+                    <img src="/src/assets/socials/github.svg" alt="" loading='lazy'/>
                 </a>
                 <a href="">
                     Preview
-                    <img src="/src/assets/elements/link.svg" alt="" />
+                    <img src="/src/assets/elements/link.svg" alt="" loading='lazy'/>
                 </a>
             </div>
         </div>
 
         <div className={styles.project_img}>
-            <img src={imgURL} alt="" />
+            <img src={imgURL} alt="" loading='lazy'/>
 
         </div>
     </div>

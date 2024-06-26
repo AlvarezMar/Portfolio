@@ -1,4 +1,35 @@
 #root {
-  margin: 0 auto;
   text-align: center;
+}
+
+body{
+  margin: 0;
+}
+
+a{
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(107, 107, 107);
+  border: 3px solid rgb(238, 238, 238);
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

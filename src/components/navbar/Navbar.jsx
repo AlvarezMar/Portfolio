@@ -10,6 +10,8 @@ function Navbar(){
             <h2>Juan Carlos Alvarez</h2>
         </div>
 
+        <span></span>
+
         <div className={styles.links}>
             <a>Home</a>
             <a>About</a>
