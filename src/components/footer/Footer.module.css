@@ -22,8 +22,13 @@
 
 .data a{
     text-decoration: none;
-    color: black;
     font-weight: bold;
+    transition: ease .3s;
+
+    &:hover{
+        color: #FFB552;
+        transition: ease .3s;
+    }
 }
 
 .data img{

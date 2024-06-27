@@ -1,10 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 :root {
   font-family: "Overpass";
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: black;
+  color: #323232;
   background-color: rgb(248, 247, 243);
 
   font-synthesis: none;
@@ -12,4 +17,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

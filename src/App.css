@@ -4,11 +4,12 @@
 
 body{
   margin: 0;
+  color: #323232;
 }
 
 a{
   font-weight: bold;
-  color: black;
+  color: #323232;
   cursor: pointer;
   text-decoration: none;
 }
@@ -24,8 +25,8 @@ a{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(107, 107, 107);
-  border: 3px solid rgb(238, 238, 238);
+  background: #323232;
+  border: 3px solid rgb(248, 247, 243);
   border-radius: 5rem;
 }
 

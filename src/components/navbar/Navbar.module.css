@@ -1,6 +1,6 @@
 .navbar{
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     width: 100%;
 }
@@ -48,7 +48,7 @@
 .links a{
     transition: ease .2s;
     &:hover{
-        color: orange;
+        color: #FFB552;
         transition: ease .2s;
     }
 }

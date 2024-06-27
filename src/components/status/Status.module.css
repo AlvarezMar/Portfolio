@@ -1,0 +1,45 @@
+.container{
+    position: absolute;
+}
+.stats{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.statBadge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border: 1px solid transparent;
+
+    &:hover .tooltip{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(66%);
+        transition: opacity .3s, transform .3s;
+    }
+}
+
+.statBadge img{
+    z-index: 2;
+}
+
+.tooltip{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(25%);
+    transition: opacity .3s;
+    padding: .7rem 1rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: rgb(248, 247, 243);
+}
+
+.tooltip p{
+    white-space: nowrap;
+}
+
