@@ -1,5 +1,5 @@
 import styles from './Navbar.module.css'
-import logo from '../../assets/logo.jpg'
+import logo from '../../assets/logo.png'
 
 function Navbar(){
 
@@ -14,9 +14,9 @@ function Navbar(){
 
         <div className={styles.links}>
             <a>Home</a>
-            <a>About</a>
-            <a>Portfolio</a>
             <a>Experience</a>
+            <a>Projects</a>
+            <a>About</a>
             <a>Contact</a>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 
-import logo from '../../assets/logo.jpg'
+import logo from '../../assets/logo.png'
 import github from '../../assets/socials/github.svg'
 import instagram from '../../assets/socials/instagram.svg'
 import linkedin from '../../assets/socials/linkedin.svg'
@@ -14,7 +14,7 @@ function Footer(){
             <div className={styles.data}>
                 <img src={logo} alt="" />
                 <a href="">Home</a>
-                <a href="">Download Resume</a>
+                <a href="">Download CV</a>
             
 
             </div>

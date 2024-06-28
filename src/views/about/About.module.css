@@ -1,30 +1,75 @@
 .container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1100px;
 }
 
 .about{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 3rem;
 }
-
 .about h2{
-    font-weight: normal;
+    text-align: left;
+    margin: 0rem !important;
 }
-.content{
-    text-align: start;
-    font-size: 1.2rem;
+.section{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 2rem;
+    gap: .5rem;
 }
 
-.about span{
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #6B7280;
+
+}
+
+.content h3{
+    font-size: 1.9rem;
+    color: #323232;
     font-weight: bold;
-    font-style: italic;
-    font-size: 1.3rem;
+}
+
+.content span{
+    font-weight: bold;
+    color: #FFB552;
+}
+
+.content a{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: 1rem 2rem 0 auto;
+    background-color: #323232;
+    padding: .8rem;
+    border-radius: .4rem;
+    color: white;
+    font-weight: normal;
+    max-width: fit-content;
+    line-height: 1;
+}
+
+.content a p{
+    margin-top: 3px;
 }
 
 .tech{
+    margin-top: 2rem;
+}
+.tech div{
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
+}
+
+.tech div:last-child{
+    margin-top: 1rem;
+    margin-left: 2rem;
 }
 
 .tech h3{

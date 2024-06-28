@@ -1,5 +1,5 @@
 .container{
-    max-width: 800px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -29,12 +29,13 @@
 .buttons a{
     padding: .5rem .8rem;
     border-radius: .4rem;
-    border: none;
     gap: .3rem;
 
     display: flex;
     background-color: rgb(233, 233, 233);
     font-weight: normal;
+    align-items: center;
+    justify-content: center;
 
     font-size: 15px;
     transition: ease .3s;
@@ -44,6 +45,10 @@
         transition: ease .3s;
         transform: scale(1.05);
     }
+}
+
+.buttons p{
+    margin: 3px 0 0 0;
 }
 
 .buttons img{

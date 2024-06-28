@@ -4,6 +4,7 @@ import About from './views/about/About'
 import Home from './views/home/Home'
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
+import { Experience } from './views/experience/Experience'
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
   return <div>
     <Navbar/>
     <Home/>
-    <About/>
+    <Experience/>
     <Projects/>
+    <About/>
     <Footer/>
   </div>
 

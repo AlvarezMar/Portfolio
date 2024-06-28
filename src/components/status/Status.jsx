@@ -12,7 +12,7 @@ function Status(){
             if(imageElement){
                 const imageRect = imageElement.getBoundingClientRect()
     
-                const xCoord = imageRect.left + window.scrollX + 42;
+                const xCoord = imageRect.left + window.scrollX + 2;
                 const yCoord = imageRect.top + window.scrollY + 370;
     
                 document.getElementById('stats-container').style.left = `${xCoord}px`

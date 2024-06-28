@@ -4,7 +4,7 @@ import Tag from '../tag/Tag'
 function Project({title, description, technologies, imgURL}){
     return <div className={`${styles.project} ${styles.container}`}>
         <div className={styles.info}>
-            <h2>{title}</h2>
+            <h2 className='my-3'>{title}</h2>
             <p>{description}</p>
 
             {technologies.map((tech) => (
@@ -13,11 +13,11 @@ function Project({title, description, technologies, imgURL}){
 
             <div className={styles.buttons}>
                 <a href="">
-                    Code
+                    <p>Code</p>
                     <img src="/src/assets/socials/github.svg" alt="" loading='lazy'/>
                 </a>
                 <a href="">
-                    Preview
+                    <p>Preview</p>
                     <img src="/src/assets/elements/link.svg" alt="" loading='lazy'/>
                 </a>
             </div>

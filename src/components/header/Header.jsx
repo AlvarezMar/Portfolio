@@ -32,11 +32,6 @@ function Header(){
                 <img src={pp} alt="Profile Image"/>
             </div>
         </div>
-
-
-        <a href="" className="bg-blue-500">Download CV</a>
-
-
     </div>
 }
 
