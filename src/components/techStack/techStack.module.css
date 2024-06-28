@@ -1,0 +1,33 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    aspect-ratio: 1/1;
+    border: 3px solid rgb(238, 238, 238);
+    border-radius: 1.2rem;
+    padding: 1rem;
+    gap: .6rem;
+}
+
+.tech h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.tech img{
+    width: 45px;
+
+}

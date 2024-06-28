@@ -30,7 +30,7 @@ function Footer(){
             </div>
         </div>
         <div className={styles.watermark}>
-        <p>© Juan Carlos Alvarez. 2024</p>
+        <p>© 2024. Juan Carlos Alvarez. </p>
         </div>
     </div>
 

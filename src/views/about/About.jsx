@@ -1,6 +1,7 @@
 import styles from './About.module.css'
 import about from '../../assets/sections/about.svg'
 import cv from '../../assets/elements/cv.svg'
+import TechStack from '../../components/techStack/techStack'
 
 function About(){
 
@@ -13,41 +14,16 @@ function About(){
             <div className={styles.content}>
                 <h3>Hey! I&apos;m <span>Juan Carlos Alvarez Martínez</span>...</h3><br />
                 <p>A passionate software developer who loves turning complex problems into simple, elegant solutions. My journey in the tech world is driven by curiosity, creativity, and a constant desire to learn and grow.</p><br />
-                <p>I am a versatile software developer with a solid technical background and hands-on experience in programming and information technology. My experience in electromechanical maintenance has equipped me with meticulous attention to detail and exceptional problem-solving skills, which I now apply to software development projects.</p>
-
-
-                <a>
-                    <p>Download CV</p>
-                    <img src={cv} alt="" width='20px'/>
-
-                </a>
-                
-                <div className={styles.tech}>
-                <div>
-                    <img src="src/assets/tech/js.svg" alt="JavaScript" loading='lazy'/>
-                    <img src="src/assets/tech/ts.svg" alt="TypeScript" loading='lazy'/>
-                    <img src="src/assets/tech/html.svg" alt="HTML" loading='lazy'/>
-                    <img src="src/assets/tech/css.svg" alt="CSS" loading='lazy'/>
-                    <img src="src/assets/tech/docker.svg" alt="Docker" loading='lazy'/>
-                    <img src="src/assets/tech/git.svg" alt="Git" loading='lazy'/>
-                    <img src="src/assets/tech/github.svg" alt="GitHub" loading='lazy'/>
-                    <img src="src/assets/tech/insomnia.svg" alt="Insomnia" loading='lazy'/>
-                </div>
-                <div>
-                    <img src="src/assets/tech/mongo.svg" alt="MongoDB" loading='lazy'/>
-                    <img src="src/assets/tech/nestjs.svg" alt="NestJS" loading='lazy'/>
-                    <img src="src/assets/tech/nodejs.svg" alt="Node.js" loading='lazy'/>
-                    <img src="src/assets/tech/npm.svg" alt="NPM" loading='lazy'/>
-                    <img src="src/assets/tech/postgres.svg" alt="PostgreSQL" loading='lazy'/>
-                    <img src="src/assets/tech/react.svg" alt="React" loading='lazy'/>
-                    <img src="src/assets/tech/vsc.svg" alt="Visual Studio Code" loading='lazy'/>
-                </div>
-
-            </div>
+                <p>I am a versatile software developer with a solid technical background and hands-on experience in programming and information technology. My experience in electromechanical maintenance has equipped me with meticulous attention to detail and exceptional problem-solving skills, which I now apply to software development projects.</p><br />
+                <p>My current tech stack is:</p>
             </div>
 
         </div>
-           
+    <TechStack/>   
+                {/* <a className={styles.button}>
+                    <p>Download CV</p>
+                    <img src={cv} alt="" width='20px'/>
+                </a> */}
     </div>
 }
 

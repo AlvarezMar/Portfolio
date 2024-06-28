@@ -6,7 +6,6 @@ import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import { Experience } from './views/experience/Experience'
 
-
 function App() {
 
   return <div>

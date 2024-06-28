@@ -1,12 +1,13 @@
 .container{
     margin: 0 auto;
     max-width: 1100px;
+    margin-bottom: 3rem;
 }
 
 .about{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .about h2{
     text-align: left;
@@ -41,7 +42,15 @@
     color: #FFB552;
 }
 
-.content a{
+.content a p{
+    margin-top: 3px;
+}
+
+.content p:last-child{
+    font-weight: bold;
+}
+
+.button{
     display: flex;
     align-items: center;
     gap: .5rem;
@@ -53,29 +62,4 @@
     font-weight: normal;
     max-width: fit-content;
     line-height: 1;
-}
-
-.content a p{
-    margin-top: 3px;
-}
-
-.tech{
-    margin-top: 2rem;
-}
-.tech div{
-    display: flex;
-    gap: 1rem;
-}
-
-.tech div:last-child{
-    margin-top: 1rem;
-    margin-left: 2rem;
-}
-
-.tech h3{
-    font-weight: normal;
-}
-.tech img{
-    width: 50px;
-
 }
