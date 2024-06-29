@@ -49,17 +49,3 @@
 .content p:last-child{
     font-weight: bold;
 }
-
-.button{
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    margin: 1rem 2rem 0 auto;
-    background-color: #323232;
-    padding: .8rem;
-    border-radius: .4rem;
-    color: white;
-    font-weight: normal;
-    max-width: fit-content;
-    line-height: 1;
-}

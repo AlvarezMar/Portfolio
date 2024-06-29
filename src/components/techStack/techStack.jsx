@@ -6,7 +6,7 @@ function TechStack(){
         <div className={styles.tech}>
 
             <div className={styles.frontend}>
-                <h3>Front-End</h3>
+                <h3>Frontend</h3>
                 <div className={styles.section}>
                     <img src="src/assets/tech/js.svg" alt="JavaScript" loading='lazy'/>
                     <img src="src/assets/tech/ts.svg" alt="TypeScript" loading='lazy'/>
@@ -19,7 +19,7 @@ function TechStack(){
             </div>
 
             <div className={styles.backend}>
-                <h3>Back-End</h3>
+                <h3>Backend</h3>
                 <div className={styles.section}>
                     <img src="src/assets/tech/nodejs.svg" alt="Node.js" loading='lazy'/>
                     <img src="src/assets/tech/nestjs.svg" alt="NestJS" loading='lazy'/>
@@ -31,7 +31,7 @@ function TechStack(){
             </div>
 
             <div className={styles.devOps}>
-                <h3>Dev Ops</h3>
+                <h3>DevOps</h3>
                 <div className={styles.section}>
                     <img src="src/assets/tech/docker.svg" alt="Docker" loading='lazy'/>
                     <img src="src/assets/tech/jest.svg" alt="Jest" loading='lazy'/>

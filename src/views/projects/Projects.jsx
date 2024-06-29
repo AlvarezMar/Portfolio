@@ -69,7 +69,7 @@ const projects = [
     
 ]
 function Projects(){
-    return <div className={styles.projects}>
+    return <div className={styles.projects} id='proyects'>
         <div className={styles.projects_heading}>
             <h2>Last Projects</h2>
         </div>

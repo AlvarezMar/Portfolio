@@ -5,7 +5,7 @@ import Status from "../../components/status/Status"
 
 function Home(){
 
-    return <div className={`${styles.home}`}>
+    return <div className={`${styles.home}`} id="home">
         <Header/>
         <CircularText/>
         <Status/>

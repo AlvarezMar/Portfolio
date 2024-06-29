@@ -54,3 +54,18 @@
     width: 65%;
     margin-top: .5rem;
 }
+
+.button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 30rem;
+    gap: .5rem;
+    background-color: #323232;
+    padding: .8rem;
+    border-radius: .4rem;
+    color: white;
+    font-weight: normal;
+    max-width: fit-content;
+    line-height: 1;
+}

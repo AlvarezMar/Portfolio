@@ -6,7 +6,7 @@ import styles from './Experience.module.css'
 import experience from '../../assets/sections/experience.svg'
 
 export function Experience() {
-  return <div className={styles.container}>
+  return <div className={styles.container} id="experience">
     <div className={styles.section}>
       <img src={experience} alt="" width='30px' />
       <h2>Experience</h2>

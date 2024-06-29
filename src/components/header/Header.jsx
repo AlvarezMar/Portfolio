@@ -4,7 +4,7 @@ import github from '../../assets/socials/github.svg'
 import instagram from '../../assets/socials/instagram.svg'
 import linkedin from '../../assets/socials/linkedin.svg'
 import mail from '../../assets/socials/mail.svg'
-
+import cv from '../../assets/elements/cv.svg'
 import pp from '../../assets/WebPhyperlight.webp'
 
 function Header(){
@@ -25,7 +25,12 @@ function Header(){
 
                     <a href='mailto:alvarez.majuan@hotmail.com' target='_blank'> <img src={mail} alt="E-mail Logo" /></a>
                     <span></span>
+
                 </div>
+                    <a className={styles.button}>
+                        <p>Download CV</p>
+                        <img src={cv} alt="" width='20px'/>
+                    </a>
             </div>
 
             <div id='image-container'>

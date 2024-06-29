@@ -1,11 +1,10 @@
 import styles from './About.module.css'
 import about from '../../assets/sections/about.svg'
-import cv from '../../assets/elements/cv.svg'
 import TechStack from '../../components/techStack/techStack'
 
 function About(){
 
-    return <div className={`${styles.container}`}>
+    return <div className={`${styles.container}`} id='about'>
         <div className={styles.about}>
             <div className={styles.section}>
                 <img src={about} alt="" width='30px' />
@@ -20,10 +19,6 @@ function About(){
 
         </div>
     <TechStack/>   
-                {/* <a className={styles.button}>
-                    <p>Download CV</p>
-                    <img src={cv} alt="" width='20px'/>
-                </a> */}
     </div>
 }
 
