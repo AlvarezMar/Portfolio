@@ -8,7 +8,7 @@ import experience from '../../assets/sections/experience.svg'
 export function Experience() {
   return <div className={styles.container} id="experience">
     <div className={styles.section}>
-      <img src={experience} alt="" width='30px' />
+      <img src={experience} alt="Experience section" width='30px' />
       <h2>Experience</h2>
     </div>
 

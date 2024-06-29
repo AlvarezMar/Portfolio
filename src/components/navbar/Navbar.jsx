@@ -6,7 +6,7 @@ function Navbar(){
     return <div className={`${styles.navbar} ${styles.container}`} id='navbar'>
 
         <div className={`${styles.header}`}>
-            <img src={logo} alt="" />
+            <a href="#home"><img src={logo} alt="" href/></a>
             <h2>Juan Carlos Alvarez</h2>
         </div>
 
@@ -17,7 +17,7 @@ function Navbar(){
             <a href='#experience'>Experience</a>
             <a href='#proyects'>Projects</a>
             <a href='#about'>About</a>
-            <a>Contact</a>
+            <a href='#'>Contact</a>
         </div>
     </div>
 }

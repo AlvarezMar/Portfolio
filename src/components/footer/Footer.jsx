@@ -12,7 +12,7 @@ function Footer(){
     return <div className={styles.footer}>
         <div className={styles.menu}>
             <div className={styles.data}>
-                <img src={logo} alt="" />
+                <a href="#home"><img src={logo} alt="" /></a>
                 <a href="#home">Home</a>
                 <a href="">Download CV</a>
             

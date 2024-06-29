@@ -46,7 +46,6 @@
         transform: scale(1.1);
         transition: ease .3s;
     }
-    
 }
 
 .socials span{
@@ -62,10 +61,21 @@
     margin: 0 0 0 30rem;
     gap: .5rem;
     background-color: #323232;
-    padding: .8rem;
+    padding: .5rem .7rem;
     border-radius: .4rem;
     color: white;
     font-weight: normal;
     max-width: fit-content;
-    line-height: 1;
+    transition: ease .2s;
+    font-size: 15px;
+
+    &:hover{
+        background-color: #696363;
+        transition: ease .3s;
+        transform: scale(1.05);
+    }
+}
+
+.button p{
+    margin-top: 4px;
 }

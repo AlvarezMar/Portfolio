@@ -1,8 +1,9 @@
 import Project from '../../components/project/Project'
 import styles from './Projects.module.css'
 import img from '/images.png'
+import projects from '../../assets/sections/projects.svg'
 
-const projects = [
+const portfolio = [
     {
         title: 'YouDrive',
         description: 'This movie website allows user to explore movie information, add new movies through a form, and store information in a database.',
@@ -71,10 +72,13 @@ const projects = [
 function Projects(){
     return <div className={styles.projects} id='proyects'>
         <div className={styles.projects_heading}>
-            <h2>Last Projects</h2>
+            <div className={styles.section}>
+                <img src={projects} alt="Projects section" width='30px'/>
+                <h2>Last Projects</h2>
+            </div>
         </div>
-        <div className={styles.prueba}>
-            {projects.map((project) => (
+        <div className={styles.portfolio}>
+            {portfolio.map((project) => (
                 <Project key={project.title} title={project.title} description={project.description} technologies={project.technologies} imgURL={project.imgURL}/>
             ))}
         </div>

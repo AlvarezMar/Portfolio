@@ -7,7 +7,7 @@ function About(){
     return <div className={`${styles.container}`} id='about'>
         <div className={styles.about}>
             <div className={styles.section}>
-                <img src={about} alt="" width='30px' />
+                <img src={about} alt="About section" width='30px' />
                 <h2>About</h2>
             </div>
             <div className={styles.content}>
