@@ -29,7 +29,7 @@ function Status(){
         };
     }, [])
 
-    return <div className={styles.container} id='stats-container'>
+    return <div className={styles.container} id='stats-container' data-aos="fade-zoom-in" data-aos-duration="700">
         <div className={styles.stats}>
             <div className={styles.statBadge}>
                 <img src={availability} alt="" width='60px'/>

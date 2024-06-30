@@ -22,7 +22,7 @@ function CircularText(){
         }
       }, []); 
 
-    return <div className={styles.circle}>
+    return <div className={styles.circle} data-aos="fade-zoom-in" data-aos-duration="700">
         <div className={styles.inner}></div>
         <div className={styles.text} ref={divRef}>
             <p>Scroll down - Scroll down - </p>

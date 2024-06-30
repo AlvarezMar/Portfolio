@@ -7,12 +7,13 @@ import mail from '../../assets/socials/mail.svg'
 import cv from '../../assets/elements/cv.svg'
 import pp from '../../assets/WebPhyperlight.webp'
 
+
 function Header(){
 
-    return <div className={` ${styles.container}`}>
+    return <div className={` ${styles.container}`} data-aos="fade-zoom-in" data-aos-duration="700">
         <div className={styles.landing}>
             <div className={styles.header}>
-                <h1 className={styles.title}>Fullstack Developer</h1>
+                <h1 className={styles.title} data-aos="fade-right" data-aos-duration="800">Fullstack Developer</h1>
                 <span>Based in Mexico City.</span>
                 <p className={styles.welcome}>Welcome to my portfolio that transcends time and space. Discover the artistry of code and innovation, crafted to create seamless digital experiences.</p>
                 
@@ -27,7 +28,7 @@ function Header(){
                     <span></span>
 
                 </div>
-                    <a className={styles.button}>
+                    <a href='https://docs.google.com/document/d/1UHZOjRkxEIEBW9Y9de9hTC_9kTX0YRyYtyTjBs69r3k/edit?usp=sharing' target='_blank' className={styles.button}>
                         <p>Download CV</p>
                         <img src={cv} alt="" width='20px'/>
                     </a>

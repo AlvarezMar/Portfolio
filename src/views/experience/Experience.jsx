@@ -6,8 +6,9 @@ import styles from './Experience.module.css'
 import experience from '../../assets/sections/experience.svg'
 
 export function Experience() {
+
   return <div className={styles.container} id="experience">
-    <div className={styles.section}>
+    <div className={styles.section} data-aos="fade-right">
       <img src={experience} alt="Experience section" width='30px' />
       <h2>Experience</h2>
     </div>
@@ -16,7 +17,7 @@ export function Experience() {
       <Timeline>
         <Timeline.Item>
           <Timeline.Point className={styles.point} />
-          <Timeline.Content>
+          <Timeline.Content data-aos="fade-left" data-aos-offset='100'>
             <Timeline.Time>August 2023</Timeline.Time>
             <Timeline.Title>Full Stack Web Developer. Henry Bootcamp.</Timeline.Title>
             <Timeline.Body>
@@ -26,7 +27,7 @@ export function Experience() {
         </Timeline.Item>
         <Timeline.Item>
           <Timeline.Point className={styles.point}/>
-          <Timeline.Content>
+          <Timeline.Content data-aos="fade-left" data-aos-offset='200'>
             <Timeline.Time>July 2022</Timeline.Time>
             <Timeline.Title>Electromechanical Maintenance. Mexico Aviation School.</Timeline.Title>
             <Timeline.Body>
@@ -36,7 +37,7 @@ export function Experience() {
         </Timeline.Item>
         <Timeline.Item>
           <Timeline.Point className={styles.point}/>
-          <Timeline.Content>
+          <Timeline.Content data-aos="fade-left" data-aos-offset='200'>
             <Timeline.Time>May 2021</Timeline.Time>
             <Timeline.Title>Mechanical Maintenance. Minigrip Mexico.</Timeline.Title>
             <Timeline.Body>

@@ -2,7 +2,7 @@ import styles from './Project.module.css'
 import Tag from '../tag/Tag'
 
 function Project({title, description, technologies, imgURL}){
-    return <div className={`${styles.project} ${styles.container}`}>
+    return <div className={`${styles.project} ${styles.container}`} data-aos="fade-left">
         <div className={styles.info}>
             <h2 className='my-3'>{title}</h2>
             <p>{description}</p>

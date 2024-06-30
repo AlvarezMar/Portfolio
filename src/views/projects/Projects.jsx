@@ -72,9 +72,9 @@ const portfolio = [
 function Projects(){
     return <div className={styles.projects} id='proyects'>
         <div className={styles.projects_heading}>
-            <div className={styles.section}>
+            <div className={styles.section} data-aos="fade-zoom-in">
                 <img src={projects} alt="Projects section" width='30px'/>
-                <h2>Last Projects</h2>
+                <h2>Latest Projects</h2>
             </div>
         </div>
         <div className={styles.portfolio}>

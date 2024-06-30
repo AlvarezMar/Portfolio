@@ -7,7 +7,18 @@ import Navbar from './components/navbar/Navbar'
 import { Experience } from './views/experience/Experience'
 import { useEffect } from 'react'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function App() {
+
+  AOS.init({
+    duration: 1000,
+    offset: 100,
+    easing: 'ease-in-out',
+    once: true
+})
+
   useEffect(() => {
     const handleScroll = (e, targetId) => {
       e?.preventDefault();
@@ -41,7 +52,6 @@ function App() {
           handleScroll(e, targetId);
         })
       })
-
     }
 
   }, [])
