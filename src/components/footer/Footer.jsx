@@ -12,9 +12,9 @@ function Footer(){
     return <div className={styles.footer}>
         <div className={styles.menu}>
             <div className={styles.data}>
-                <a href="#home"><img src={logo} alt="" /></a>
+                <a href="#home"><img src={logo} alt="Logo" /></a>
                 <a href="#home">Home</a>
-                <a href="">Download CV</a>
+                <a href="https://docs.google.com/document/d/1UHZOjRkxEIEBW9Y9de9hTC_9kTX0YRyYtyTjBs69r3k/edit?usp=sharing" target='_blank'>Download CV</a>
             
 
             </div>

@@ -34,7 +34,7 @@ function Header(){
                     </a>
             </div>
 
-            <div id='image-container'>
+            <div id='image-container' className={styles.profile}>
                 <img src={pp} alt="Profile Image"/>
             </div>
         </div>

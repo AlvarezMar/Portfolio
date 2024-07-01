@@ -1,8 +1,5 @@
 .navbar{
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    width: 100%;
+    display: none;
 }
 
 .header{
@@ -51,4 +48,15 @@
         color: #FFB552;
         transition: ease .2s;
     }
+}
+
+@media (min-width: 480px){
+    .navbar{
+        display: block;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        width: 100%;
+    }
+    
 }

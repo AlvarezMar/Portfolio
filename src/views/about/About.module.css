@@ -1,13 +1,13 @@
 .container{
     margin: 0 auto;
-    max-width: 1100px;
     margin-bottom: 3rem;
 }
 
 .about{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 .about h2{
     text-align: left;
@@ -15,7 +15,7 @@
 }
 .section{
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     margin: 2rem;
     gap: .5rem;
@@ -46,4 +46,16 @@
 
 .content p:last-child{
     font-weight: bold;
+}
+
+@media (min-width:480px) {
+    .container{
+        max-width: 1100px;
+    }
+    
+    .about{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding: 0;
+    }
 }

@@ -1,45 +1,41 @@
 .landing{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
-    margin-bottom: 5rem;
 }
 
-.landing img{
-    -webkit-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
-    -moz-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
-    box-shadow: 34px 74px 51px -93px rgb(226, 154, 19);
+.profile img{
+    max-width: 100%;
+    padding: 0 2rem;
 }
 
 .header{
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
 }
 
 .header span{
-    font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin: -.5rem 0 1rem 0;
 }
 
 .title{
-    font-size: 8rem;
-    line-height: 6.5rem;
-    padding-bottom: 1rem;
-    margin-bottom: 0;
+    font-size: 2.2rem;
     font-weight: 900;
-}
-
-.welcome{
-    margin-left: 15rem;
+    padding-top: 1rem;
 }
 
 .socials{
     display: flex;
     gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
 }
 
 .socials a{
-    width: 2rem;
+    width: 1.7rem;
     transition: ease .3s;
 
     &:hover{
@@ -49,26 +45,25 @@
 }
 
 .socials span{
+    display: none;
     border-top: 2px solid rgb(238, 238, 238);
     width: 65%;
-    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .button{
-    position: absolute;
     display: flex;
     align-items: center;
-    margin: 0 0 0 30rem;
     gap: .5rem;
-    background-color: none;
     color: white;
     background-color: #323232;
     padding: .5rem .7rem;
     border-radius: .4rem;
     font-weight: normal;
-    max-width: fit-content;
     transition: ease .2s;
     font-size: 15px;
+    width: fit-content;
+    margin: 0 auto;
 
     &:hover{
         transition: ease .3s;
@@ -76,6 +71,69 @@
     }
 }
 
+.button a{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
 .button p{
     margin-top: 3px;
+}
+
+@media (min-width: 480px){
+    .landing{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .profile img{
+
+        padding: 0;
+        -webkit-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
+        -moz-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
+        box-shadow: 34px 74px 51px -93px rgb(226, 154, 19);
+    }
+
+    .header{
+        text-align: end;
+        padding: 0;
+    }
+    
+    .header span{
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .title{
+        font-size: 8rem;
+        line-height: 6.5rem;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .welcome{
+        margin-left: 15rem;
+    }
+
+    .socials{
+        padding: 0;
+    }
+    
+    .socials a{
+        width: 2rem;
+    }
+    
+    .socials span{
+        display: block;
+        margin-bottom: .9rem;
+    }
+
+    .button{
+        margin: 0 0 0 30rem;
+    }
 }

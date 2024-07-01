@@ -1,10 +1,10 @@
 .container{
-    max-width: 1100px;
     margin: 0 auto;
     padding-top: 2.5rem;
 
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
     
 }
 
@@ -34,4 +34,15 @@
 
 .point div{
     background-color: #FFB552;
+}
+
+@media (min-width:480px) {
+    .container{
+        max-width: 1100px;
+        padding: 2.5rem 0 0 0;
+    
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        
+    } 
 }

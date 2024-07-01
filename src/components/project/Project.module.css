@@ -4,8 +4,8 @@
 }
 
 .project{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
     border: 2px solid rgb(238, 238, 238);
     padding: 1.5rem 2.2rem;
     border-radius: .5rem;
@@ -60,6 +60,13 @@
     display: flex;
     justify-content: end;
     align-items: center;
+}
+
+@media (min-width: 480px) {  
+    .project{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
