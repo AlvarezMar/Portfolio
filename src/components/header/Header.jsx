@@ -7,7 +7,6 @@ import mail from '../../assets/socials/mail.svg'
 import cv from '../../assets/elements/cv.svg'
 import pp from '../../assets/WebPhyperlight.webp'
 
-
 function Header(){
 
     return <div className={` ${styles.container}`} data-aos="fade-zoom-in" data-aos-duration="700">

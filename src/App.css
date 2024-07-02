@@ -2,10 +2,14 @@
   text-align: center;
 }
 
+body, html{
+  overflow-x: hidden;
+}
 body{
   margin: 0;
   color: #323232;
 }
+
 
 a{
   font-weight: bold;

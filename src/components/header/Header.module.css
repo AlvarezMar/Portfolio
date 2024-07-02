@@ -31,7 +31,7 @@
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 3rem 0;
 }
 
 .socials a{
@@ -90,7 +90,6 @@
     }
 
     .profile img{
-
         padding: 0;
         -webkit-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
         -moz-box-shadow: 34px 74px 51px -93px rgba(0,0,0,1);
@@ -136,4 +135,11 @@
     .button{
         margin: 0 0 0 30rem;
     }
+}
+
+@media (max-height: 800px) {
+    .landing{
+        padding-top: 3.5rem;
+    }
+    
 }

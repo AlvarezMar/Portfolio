@@ -7,3 +7,10 @@
     margin: 0 auto;
 }
 
+@media (max-height: 800px) {
+    .home{
+        height: auto;
+    }
+    
+}
+
