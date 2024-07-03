@@ -25,7 +25,7 @@ function Navbar(){
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [isOpen]);
+  }, []);
 
   useEffect(() => {
     function handleClickOutside(event) {
