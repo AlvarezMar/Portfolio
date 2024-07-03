@@ -1,6 +1,9 @@
 import styles from './Project.module.css'
 import Tag from '../tag/Tag'
 
+import github from '../../assets/socials/github.svg'
+import link from '../../assets/elements/link.svg'
+
 function Project({title, description, technologies, imgURL}){
     return <div className={`${styles.project} ${styles.container}`} data-aos="fade-left">
         <div className={styles.info}>
@@ -14,11 +17,11 @@ function Project({title, description, technologies, imgURL}){
             <div className={styles.buttons}>
                 <a href="">
                     <p>Code</p>
-                    <img src="/assets/socials/github.svg" alt="" loading='lazy'/>
+                    <img src={github} alt="" loading='lazy'/>
                 </a>
                 <a href="">
                     <p>Preview</p>
-                    <img src="/assets/elements/link.svg" alt="" loading='lazy'/>
+                    <img src={link} alt="" loading='lazy'/>
                 </a>
             </div>
         </div>
