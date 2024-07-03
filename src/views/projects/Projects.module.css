@@ -16,6 +16,11 @@
     border-radius: .5rem;
 }
 
+.projects_heading span{
+    color: rgb(224, 72, 72);
+    letter-spacing: .5rem;
+    font-weight: bold;
+}
 @media (min-width: 480px) {
     .projects{
         margin-bottom: 4rem;

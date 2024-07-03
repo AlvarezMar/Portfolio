@@ -76,6 +76,7 @@ function Projects(){
                 <img src={projects} alt="Projects section" width='30px'/>
                 <h2>Latest Projects</h2>
             </div>
+            <span>Under construction</span>
         </div>
         <div className={styles.portfolio}>
             {portfolio.map((project) => (
