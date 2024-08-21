@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: .6rem;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .section{
@@ -45,5 +45,11 @@
     .tech img{
         width: 45px;
     
+    }
+}
+
+@media (min-width:819px) and (max-width:1026px) {
+    .tech{
+        margin: 0 6.5rem 2rem 6.5rem;
     }
 }

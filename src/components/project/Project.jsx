@@ -4,7 +4,8 @@ import Tag from '../tag/Tag'
 import github from '../../assets/socials/github.svg'
 import link from '../../assets/elements/link.svg'
 
-function Project({title, description, technologies, imgURL}){
+function Project({title, description, technologies, imgURL, repoURL, websiteURL}){
+
     return <div className={`${styles.project} ${styles.container}`} data-aos="fade-left">
         <div className={styles.info}>
             <h2 className='my-3'>{title}</h2>
@@ -15,11 +16,11 @@ function Project({title, description, technologies, imgURL}){
             ))}
 
             <div className={styles.buttons}>
-                <a href="">
+                <a href={repoURL} target='_blank'>
                     <p>Code</p>
                     <img src={github} alt="" loading='lazy'/>
                 </a>
-                <a href="">
+                <a href={websiteURL} target='_blank' style={{pointerEvents: websiteURL ? 'auto' : 'none'}}>
                     <p>Preview</p>
                     <img src={link} alt="" loading='lazy'/>
                 </a>

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    margin: 0 .5rem;
 }
 
 .profile img{
@@ -85,7 +86,7 @@
     .landing{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2.5rem;
+        gap: .5rem;
         margin-bottom: 5rem;
     }
 
@@ -96,10 +97,7 @@
         box-shadow: 34px 74px 51px -93px rgb(226, 154, 19);
     }
 
-    .header{
-        text-align: end;
-        padding: 0;
-    }
+
     
     .header span{
         font-weight: bold;
@@ -107,6 +105,32 @@
         margin: 0;
     }
 
+    .title{
+        font-size: 5rem;
+        line-height: 4.5rem;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .socials{
+        padding: 1rem- 0 1.5rem 0;
+        gap: 1rem;
+    }
+
+    .socials span{
+        display: none;
+    }
+    
+    .socials a{
+        width: 2rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .landing{
+        gap: 2.5rem;
+    }
     .title{
         font-size: 8rem;
         line-height: 6.5rem;
@@ -119,22 +143,26 @@
         margin-left: 15rem;
     }
 
-    .socials{
+    .header{
+        text-align: end;
         padding: 0;
-    }
-    
-    .socials a{
-        width: 2rem;
-    }
-    
-    .socials span{
-        display: block;
-        margin-bottom: .9rem;
     }
 
     .button{
         margin: 0 0 0 30rem;
     }
+
+    .socials{
+        padding: 0;
+        gap: 1.5rem;
+    }
+
+    .socials span{
+        display: block;
+        margin-bottom: .9rem;
+    }
+
+
 }
 
 @media (max-height: 800px) {
